@@ -1,0 +1,13 @@
+.letsplay{
+  margin-left: 250px;
+  width: 200px;
+  height: 75px;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+}
+.letsplay a{
+  margin-left: 68px;
+  margin-top: 135px;
+  text-align: center;
+}

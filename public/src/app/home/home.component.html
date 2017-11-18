@@ -1,0 +1,23 @@
+<div class="all_home">
+  <h2>{{user.name}}... Welcome back.</h2>
+  <form>
+    <p>Search: <input type="text" name="search"></p>
+  </form>
+  <div class="users_scores">
+    <table>
+      <thead>
+        <th>Name</th>
+        <th>Score</th>
+        <th>Percentage</th>
+      </thead>
+      <tbody>
+      <tr *ngFor='let user of users'>
+        <td>{{ user.name }}</td>
+        <td>--score--</td>
+        <td>--percentage--</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>

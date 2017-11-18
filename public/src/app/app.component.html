@@ -1,0 +1,10 @@
+<h1>Trivia!</h1>
+<a [routerLink]="['login']">Login or Add Name</a>| | |
+<a [routerLink]="['']">Home</a>| | |
+<a [routerLink]="['addQuestion']">Add a Question</a>
+<div class="letsplay">
+  <a [routerLink]="['letsplay']" >Let's Play!</a>
+</div>
+<!-- all router links had *ngIf='!loggedin' or *ngIf='loggedin' respectively -->
+
+<router-outlet></router-outlet>

@@ -1,0 +1,9 @@
+.question{
+  width: 400px;
+  border-width: thin;
+  border-color: black;
+  border-style: solid;
+}
+.question p{
+  margin-left: 30px;
+}

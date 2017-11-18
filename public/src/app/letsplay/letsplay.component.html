@@ -1,0 +1,24 @@
+<div class="game">
+  <h3>Hi --user.name--! {{user.name}}</h3>
+  <p>Choose an answer for each of the questions and submit the test once done.</p>
+  <p>Good luck!</p>
+  <div *ngFor='let question of questions' class="question">
+    <h2>{{question.question}}</h2>
+    <form (submit)='onSubmit()'>
+      <div class="questions">
+
+
+      <label for="correct_answer">{{question.correct_answer}}</label>
+      <input type="radio" name="correct_answer">
+      <label for="correct_answer">{{question.fake_answer_1}}</label>
+      <input type="radio" name="fake_answer_1">
+      <label for="correct_answer">{{question.fake_answer_2}}</label>
+      <input type="radio" name="fake_answer_2">
+
+    </div>
+    <input type="submit" name="submit" value="Submit">
+  </form>
+  </div>
+
+
+</div>

@@ -1,0 +1,27 @@
+<h1>New Question</h1>
+<div class="addquestion">
+  <form (submit)='onSubmit()'>
+  <table>
+
+      <tr>
+        <td>Question:</td>
+        <td><input type="text" name="question"[(ngModel)]='question.question'> </td>
+      </tr>
+      <tr>
+        <td>Correct Answer:</td>
+        <td><input type="text" name="correct_answer" [(ngModel)]='question.correct_answer'> </td>
+      </tr>
+      <tr>
+        <td>Fake Answer 1:</td>
+        <td><input type="text" name="fake_answer_1" [(ngModel)]='question.fake_answer_1'> </td>
+      </tr>
+      <tr>
+        <td>Fake Answer 2:</td>
+        <td><input type="text" name="fake_answer_2" [(ngModel)]='question.fake_answer_2'> </td>
+      </tr>
+  </table>
+  <input type="submit" name="submit" value="Add Question">
+  </form>
+
+
+</div>

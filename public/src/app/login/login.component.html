@@ -1,0 +1,12 @@
+<h5>Enter your name:</h5>
+<div class="login">
+  <form (submit)='onSubmit()'>
+    <table>
+      <tr>
+        <td>Enter your name:</td>
+        <td><input type="text" name="name" [(ngModel)]='user.name'></td>
+      </tr>
+    </table>
+    <input type="submit" name="submit" value="Add/Login">
+  </form>
+</div>
